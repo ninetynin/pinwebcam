@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: scaleX(1); /* flip horizontally */
+}
+
+.titlebar {
+    height: 30px;
+    background: #ffffff;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    transition: opacity 0.3s;
+}
+
+.titlebar.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.titlebar-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.titlebar-button:hover {
+    background: #c35b8f;
+}
+
+.always-on-top, .flip-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.always-on-top.active, .flip-button.active {
+    background-color: #45a049;
+}
