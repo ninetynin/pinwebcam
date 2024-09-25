@@ -1,7 +1,7 @@
 [package]
-name = "te005"
+name = "Overlay-CamWindow"
 version = "0.1.0"
-description = "A Tauri App"
+description = "Keep your webcam feed always on top with Overlay-CamWindow! This lightweight app, using under 5MB of RAM, is perfect for streaming and screen sharing. Effortlessly share your view during calls and enjoy seamless multitasking."
 authors = ["you"]
 edition = "2021"
 

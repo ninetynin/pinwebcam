@@ -3,6 +3,17 @@
 version = 3
 
 [[package]]
+name = "Overlay-CamWindow"
+version = "0.1.0"
+dependencies = [
+ "always-on-top-windows",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+]
+
+[[package]]
 name = "addr2line"
 version = "0.24.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2829,17 +2840,6 @@ checksum = "5993dc129e544393574288923d1ec447c857f3f644187f4fbf7d9a875fbfc4fb"
 dependencies = [
  "embed-resource",
  "toml 0.7.8",
-]
-
-[[package]]
-name = "te005"
-version = "0.1.0"
-dependencies = [
- "always-on-top-windows",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
 ]
 
 [[package]]
