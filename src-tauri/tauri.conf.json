@@ -5,7 +5,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "te005",
+    "productName": "Overlay CamWindow",
     "version": "0.1.0"
   },
   "tauri": {
@@ -30,7 +30,7 @@
     "windows": [
       {
         "decorations": false,
-        "title": "te005",
+        "title": "Overlay CamWindow",
         "width": 800,
         "height": 600
       }
@@ -41,7 +41,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.te005.app",
+      "identifier": "com.ninetynin.overlaycamwindow",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
